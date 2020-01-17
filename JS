@@ -1,0 +1,13 @@
+<head>
+<script>
+		let num = 20;
+		function hey(){
+			num += 1;
+			if (num < 5) {
+				alert("안녕! " + num +"번 누르셨네요!");
+			} else {
+				alert('앗. 그만 누르세요 이제!');
+			}
+		}
+</script>
+</head>
