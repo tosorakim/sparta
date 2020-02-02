@@ -65,8 +65,23 @@
         // else {$('#basic-addon1').focus()}
         // else {$('#tel_input').focus()}
       }
+              function listing(){
+          $.ajax({
+            type: "GET",
+            url: "http://spartacodingclub.shop/order",
+            data:{},
+            success: function(res){
+              console.log(res)
+            }
+          })
+        }
+      $(document).ready(function(){
+        listing()
+        // console.log("온로드가 아래")
 
+      })
 
+     
  
 
 

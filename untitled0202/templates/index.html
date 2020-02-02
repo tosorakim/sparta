@@ -1,0 +1,21 @@
+<html>
+    <head>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+<script>
+    $.ajax({
+    type: "POST",
+    url: "/new",
+    data: { rank_give:'99', star_give:'0', title_give:'청년경찰' },
+    success: function(response){
+        console.log(response)
+    }
+  })
+</script>
+    </head>
+    <body>
+
+    </body>
+</html>
